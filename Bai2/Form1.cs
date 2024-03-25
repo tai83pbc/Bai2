@@ -342,7 +342,7 @@ namespace Bai2
         }
         private string RemoveInvalidCharacters(string input)
         {
-            char[] invalidChars = { ' ', ':', ';', '&', '<', '>', '"', '\'','*' };
+            char[] invalidChars = { ' ', ':', ';', '&', '<', '>', '"', '\'' };
             string output = input;
 
             foreach (char invalidChar in invalidChars)
